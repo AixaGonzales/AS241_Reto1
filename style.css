@@ -1,0 +1,40 @@
+.tabla {
+    border: 1px solid black; /* Se especifica un estilo de borde */
+    width: 30px;
+  }
+  
+  .nav {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  .nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav ul li {
+    margin-right: 20px;
+  }
+  
+  .nav ul li a {
+    color: #fff; /* Más corto para blanco */
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+  }
+  
+  .nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  
+  .rosa, .lirio, .tulipan {
+    width: 300px;
+    display: flex;
+    justify-content: center; /* Si es necesario centrar contenido dentro */
+    align-items: center;
+  }
+  
