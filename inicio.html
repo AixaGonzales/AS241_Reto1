@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jardin del Alma</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1><strong>JARDIN DEL ALMA</strong></h1>
+      <p>en donde encuentras la felicidad en los aromas y colores</p>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </header>
+    <h2>ejemplo de tabla</h2>
+    <table class="tabla">
+      <tr>
+        <th>ROSA</th>
+        <th>LIRIO</th>
+        <th>TULIPAN</th>
+      </tr>
+      <tr>
+        <td>
+          <img src="imagen1.jpeg" class="rosa" />
+          <p>
+            La<strong> rosa </strong> es quizás una de las flores más
+            reconocidas y populares en todo el mundo. Con sus pétalos suaves y
+            delicados, la rosa viene en una amplia gama de colores, desde el
+            clásico rojo pasión hasta el delicado rosa, el vibrante amarillo y
+            el puro blanco.<em
+              >Además de su belleza visual, la rosa también es apreciada por su
+              aroma dulce y distintivo</em
+            >. Se ha asociado durante mucho tiempo con el amor, la pasión y el
+            romance, lo que la convierte en una opción popular para regalos
+            románticos y ocasiones especiales como bodas y aniversarios.
+          </p>
+          <button>ver mas...</button>
+        </td>
+        <td>
+          <img src="imagen2.jpg" class="lirio" />
+          <p>
+            El <strong>lirio</strong> es una flor elegante y majestuosa que se
+            destaca por sus tallos altos y sus flores grandes y llamativas. Con
+            sus pétalos acampanados y sus colores vibrantes, como el blanco
+            puro, el rosa suave y el amarillo brillante, el lirio agrega un
+            toque de gracia y sofisticación a cualquier arreglo floral.<em>
+              Además de su belleza estética, el lirio también tiene un aroma
+              distintivo y encantador</em
+            >. Se asocia comúnmente con la pureza, la inocencia y la renovación,
+            lo que lo convierte en una opción popular para celebrar ocasiones
+            como nacimientos, bautizos y bodas.
+          </p>
+          <button>ver mas...</button>
+        </td>
+        <td>
+          <img src="imagen3.webp" class="tulipan" />
+          <p>
+            El <strong>tulipán</strong> es una flor primaveral encantadora
+            conocida por su forma única y sus brillantes colores. Con sus tallos
+            delgados y sus pétalos en forma de copa, el tulipán viene en una
+            amplia variedad de tonos, desde el rojo intenso y el amarillo
+            brillante hasta el morado profundo y el blanco puro. Esta diversidad
+            de colores y formas hace que los tulipanes sean una opción versátil
+            para arreglos florales y decoraciones.
+            <em
+              >Además de su belleza visual, el tulipán también es apreciado por
+              su elegancia simple y su simbolismo de amor y felicidad</em
+            >, lo que lo convierte en una opción popular para una amplia gama de
+            ocasiones, desde cumpleaños y aniversarios hasta eventos formales y
+            celebraciones de primavera.
+          </p>
+          <button>ver mas...</button>
+        </td>
+      </tr>
+    </table>
+    <br />
+    <h2>VIDEOS PUBLICITARIOS</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/AZ6evpIs6ns?si=fYigBSwmeb9Ytrj0"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
+
+    <h1>HAZ TUS RESERVACIONES YA!!!</h1>
+    <div class="calendario">
+      <label for="fecha">Elige una fecha:</label>
+      <input type="date" id="fecha" name="fecha" />
+      <p id="resultado"></p>
+    </div>
+    <br />
+    <div class="formulario">
+      <h2>Formulario de Contacto</h2>
+
+      <form action="/enviar" method="POST">
+        <label for="nombre">Nombre:</label><br />
+        <input type="text" id="nombre" name="nombre" required /><br /><br />
+        <label for="email">Correo Electrónico:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+        <label for="telefono">Teléfono:</label><br />
+        <input type="tel" id="telefono" name="telefono" /><br /><br />
+        <label for="mensaje">Mensaje:</label><br />
+        <textarea
+          id="mensaje"
+          name="mensaje"
+          rows="4"
+          cols="50"
+          required
+        ></textarea
+        ><br /><br />
+        <input type="submit" value="Enviar" />
+      </form>
+    </div>
+  </body>
+</html>
